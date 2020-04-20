@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectScaleViewController">
+            <connections>
+                <outlet property="tableViewScale" destination="Lev-JC-Htz" id="dit-42-j3q"/>
+                <outlet property="view" destination="et5-mo-g9W" id="anQ-bv-rbD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="et5-mo-g9W">
+            <rect key="frame" x="0.0" y="0.0" width="199" height="317"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Lev-JC-Htz">
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="317"/>
+                    <color key="backgroundColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="0.77588874072603209" green="0.72529032664987114" blue="0.79423137623737372" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="separatorColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexBackgroundColor" red="0.35516895051026209" green="0.44868465949216985" blue="0.55433238644747473" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexTrackingBackgroundColor" red="0.18495380755176535" green="0.23365200151623725" blue="0.28866792937676777" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="63y-gc-m2t"/>
+                        <outlet property="delegate" destination="-1" id="qKp-1V-HJb"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.31545292651088619" green="0.39851143720192933" blue="0.49234532836666678" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-150.5" y="61.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="greek.ttf">
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+            <string>Greek</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FXRackMachineViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="6uy-js-gix"/>
+                <outletCollection property="slidersCollection" destination="KcX-B6-snb" id="Qc7-lQ-4PZ"/>
+                <outletCollection property="slidersCollection" destination="GFp-L3-OpN" id="c42-GS-wvK"/>
+                <outletCollection property="slidersCollection" destination="zRW-qw-b59" id="UvW-b1-LVc"/>
+                <outletCollection property="slidersCollection" destination="QwE-Md-7tF" id="LVJ-DP-5oH"/>
+                <outletCollection property="slidersCollection" destination="LT9-5e-3db" id="WNo-ys-nGY"/>
+                <outletCollection property="labelEffectsCollection" destination="awp-hT-Yqi" id="YiI-J3-Z5s"/>
+                <outletCollection property="labelEffectsCollection" destination="3Zz-pE-6FW" id="jMg-Kj-4CW"/>
+                <outletCollection property="labelEffectsCollection" destination="loL-bH-vu2" id="chl-oZ-7LF"/>
+                <outletCollection property="labelEffectsCollection" destination="vGD-KS-I2x" id="o3o-Do-07U"/>
+                <outletCollection property="labelEffectsCollection" destination="vd4-tW-c43" id="0Ip-IU-Ups"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="185"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="border_editor2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jO5-du-rTR">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="185"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="REVERB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dqn-I0-Xko">
+                    <rect key="frame" x="29" y="10" width="59" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="15"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DELAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baz-ys-VXo">
+                    <rect key="frame" x="89" y="10" width="59" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="15"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHORUS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrD-4U-gnh">
+                    <rect key="frame" x="149" y="10" width="59" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="15"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="KcX-B6-snb">
+                    <rect key="frame" x="8" y="71" width="100" height="31"/>
+                    <animations/>
+                    <color key="minimumTrackTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" red="0.54214407340000004" green="0.64523807550000001" blue="0.65824258209999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="reverbMachine:" destination="-1" eventType="valueChanged" id="VPA-Pp-HNk"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="GFp-L3-OpN">
+                    <rect key="frame" x="68" y="71" width="100" height="31"/>
+                    <animations/>
+                    <color key="minimumTrackTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" red="0.54214407340000004" green="0.64523807550000001" blue="0.65824258209999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="delayMachine:" destination="-1" eventType="valueChanged" id="H5N-8F-3Bb"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="zRW-qw-b59">
+                    <rect key="frame" x="128" y="71" width="100" height="31"/>
+                    <animations/>
+                    <color key="minimumTrackTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" red="0.54214407340000004" green="0.64523807550000001" blue="0.65824258209999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="chorusMachine:" destination="-1" eventType="valueChanged" id="bBd-pG-xuj"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="QwE-Md-7tF">
+                    <rect key="frame" x="188" y="71" width="100" height="31"/>
+                    <animations/>
+                    <color key="minimumTrackTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" red="0.54214407340000004" green="0.64523807550000001" blue="0.65824258209999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="distoMachine:" destination="-1" eventType="valueChanged" id="fad-U5-EYr"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awp-hT-Yqi">
+                    <rect key="frame" x="38" y="135" width="54" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="23"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zz-pE-6FW">
+                    <rect key="frame" x="98" y="135" width="54" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="23"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loL-bH-vu2">
+                    <rect key="frame" x="158" y="135" width="54" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="23"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGD-KS-I2x">
+                    <rect key="frame" x="218" y="135" width="54" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="23"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DISTO." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wj4-rt-ni7">
+                    <rect key="frame" x="209" y="10" width="73" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="15"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="80" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="LT9-5e-3db">
+                    <rect key="frame" x="248" y="71" width="100" height="31"/>
+                    <animations/>
+                    <color key="minimumTrackTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" red="0.54214407340000004" green="0.64523807550000001" blue="0.65824258209999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="thumbTintColor" red="0.29172248569999998" green="0.36484949020000002" blue="0.44872553669999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <action selector="volumeMachine:" destination="-1" eventType="valueChanged" id="0uD-4R-F8i"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MASTER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNk-sE-VIF">
+                    <rect key="frame" x="269" y="10" width="73" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="15"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="80%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd4-tW-c43">
+                    <rect key="frame" x="278" y="135" width="54" height="26"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="Greek" family="Greek" pointSize="23"/>
+                    <color key="textColor" red="0.18495380759999999" green="0.23365200150000001" blue="0.28866792940000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="162" y="60.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="border_editor2.png" width="998" height="622"/>
+    </resources>
+</document>
